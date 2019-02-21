@@ -3,6 +3,7 @@ var nickName;
 
 var main = function() {
 
+    //socket = new WebSocket("ws://chatt19.herokuapp.com:3001");
     socket = new WebSocket("ws://localhost:3001");
 
     socket.onopen = function() {
