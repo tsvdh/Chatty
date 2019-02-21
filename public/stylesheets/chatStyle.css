@@ -1,0 +1,90 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: royalblue;
+    width: 1000px;
+    margin: auto;
+}
+
+header, main, footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+ul {
+    width: 700px;
+    margin: auto;
+}
+
+.input {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.name {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed lightgray;
+    width: 150px;
+    overflow-wrap: break-word;
+}
+
+.comment {
+    margin-bottom: 40px;
+    overflow-wrap: break-word;
+}
+
+
+h6 {
+    color: lightgray;
+    text-align: right;
+}
+
+textarea {
+    width: 694px;
+    height: 50px;
+    resize: vertical;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    outline: none;
+    border: 1px dotted royalblue;
+    border-radius: 5px;
+    transition-duration: 0.1s;
+}
+
+textarea:focus {
+    border: 1px dashed black;
+}
+
+.button {
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+}
+
+button {
+    color: white;
+    background-color: royalblue;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+    height: 25px;
+    width: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: black;
+}
+
+.input .nick {
+    font-size: 125%;
+    margin-bottom: 10px;
+}

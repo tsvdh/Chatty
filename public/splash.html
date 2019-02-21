@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chatty</title>
+        <link href="stylesheets/reset.css" rel="stylesheet" type="text/css">
+        <link href="stylesheets/splashStyle.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <!--<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+        <script src="./client_modules/jquery.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Chatty!</h1>
+            <h2>Here you can chat with other people</h2>
+        </header>
+
+        <main>
+            <div class="input">
+                <input type="text">
+                <p class="status">Nickname not yet confirmed.</p>
+                <p class="name"></p>
+                <p class="instruction">Press enter to confirm your nickname.</p>
+            </div>
+            <form action="/chat" method="get">
+                <button class="global" disabled>To the global chat</button>
+            </form>
+        </main>
+
+        <footer>
+            <h6>Author: tsvdh</h6>
+        </footer>
+    </body>
+    <script src="./javascripts/client_splash.js"></script>
+    <script src="./javascripts/messages.js"></script>
+</html>

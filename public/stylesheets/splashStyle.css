@@ -1,0 +1,104 @@
+body {
+    font-size: 100%;
+    width: 1000px;
+    margin: auto;
+    color: royalblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h6 {
+    color: lightgray;
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+    opacity: 0.7;
+}
+
+button.global {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border-color: royalblue;
+    transition-duration: 0.5s;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    outline: none;
+}
+
+button.global:hover {
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+}
+
+button.global:disabled {
+    cursor: default;
+    background-color: lightgray;
+    color: white;
+    border-color: lightgray;
+}
+
+button.global:disabled:hover {
+    color: red;
+}
+
+form {
+    text-align: center;
+}
+
+header, main, footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+.status {
+    display: inline;
+}
+
+.name {
+    display: inline;
+    color: black;
+}
+
+.input {
+    text-align: left;
+    font-size: 150%;
+}
+
+.input input {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border-radius: 3px;
+    font-size: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 180px;
+}
+
+.instruction {
+    margin-bottom: 50px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+div.stats {
+    text-align: right;
+    margin-top: 50px;
+    font-size: 110%;
+}
